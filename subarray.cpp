@@ -13,6 +13,9 @@ int main() {
          }
          if(subarray_sum > sum) {
              sum = subarray_sum;
+         }else{
+
+             sum=0;
          }
      }
 
