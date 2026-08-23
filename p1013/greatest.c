@@ -20,10 +20,8 @@ int main(){
     }else if(B>A && B>C){
         printf("%d eh o maior\n",B);
 
-    }else if(C>A && C>B){
-        printf("%d eh o maior\n",C);
     }else{
-        printf("All values are equal\n");
+        printf("%d eh o maior\n",C);
     }
 
     return 0;
